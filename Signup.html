@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<style>
+    body{
+            font-family: cursive;
+            background-color: cornsilk;
+        }
+    button{
+            background-color: indigo;
+            width: 30%;
+            padding: auto;
+            margin: 10px 0px;
+        }
+    input[type=text],input[type=password]{
+            width:100%;
+            color:black;
+            padding: 10px 12px;
+            box-sizing: border-box;
+        }
+    .form-center{
+            display: flex;
+            right: 50%;
+            justify-content: center;
+        }
+</style>
+<body>
+    <h1 style = "text-align : center">Signup form</h1>
+    <div class="form-center"> 
+    <form style = "border: 3px solid; width: 30%; ">
+        <div style = "padding: 50px; background-color: aquamarine;">
+            <label>first name: </label><br> 
+                <input type="text" name:"firstname" id:"firstname" placeholder="enter first name" required><br>
+            <label>last name: </label><br> 
+                <input type="text" name:"lastname" id:"lastname" placeholder="enter last name" required><br>
+            <label>Mail id </label><br> 
+                <input type="text" name:"mailid" id:"mailid" placeholder="enter email" required><br>
+            <label>Password: </label><br>
+                <input type="password"  name:"password" id:"Password" placeholder="enter password" required><br>
+            <button type="submit">Signup</button><br>
+            <label>Existing user: </label><a href="Login.html">Sign up</a>
+</body>
+</html>
